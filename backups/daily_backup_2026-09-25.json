@@ -1,6 +1,6 @@
 {
   "appSystem": "Royal Kitchen Admin Master System",
-  "exportDate": "2026-09-25T12:12:34.119Z",
+  "exportDate": "2026-09-25T23:00:05.003Z",
   "dateStr": "2026-09-25",
   "version": "2.0-Royal-VIP",
   "summary": {
@@ -9,7 +9,7 @@
     "totalCookwareDz": 1,
     "totalCookwareAli": 0,
     "totalVipKeys": 0,
-    "totalApps": 20
+    "totalApps": 2
   },
   "data": {
     "recipes": [
@@ -1796,165 +1796,257 @@
       }
     ],
     "cookware_aliexpress": [],
-    "categories": [],
-    "our_apps": [],
-    "vip_keys": [],
-    "messages": [
+    "categories": [
       {
-        "id": "msg_",
-        "_createTime": "2026-09-17T15:44:22.398212Z",
-        "_updateTime": "2026-09-17T15:44:22.398212Z",
-        "category": "استفسار طهي 👨‍🍳",
-        "createdAt": "2026-09-17T16:44:20.257134",
-        "timestamp": 1789659860257,
-        "message": "bbcncn",
-        "appName": "أم وليد",
-        "status": "unread",
-        "name": "ععع",
-        "email": "ajhfk@gmail.com"
+        "enabled": true,
+        "id": "tajines_traditional",
+        "name": "طواجن وتقليدي 🥘",
+        "emoji": "🥘",
+        "order": 1
+      },
+      {
+        "emoji": "🇩🇿",
+        "enabled": true,
+        "order": 2,
+        "name": "جزائري أصيل 🇩🇿",
+        "id": "algerian_authentic"
+      },
+      {
+        "name": "أطباق جزائرية تقليدية 🇩🇿",
+        "enabled": true,
+        "order": 3,
+        "emoji": "🇩🇿",
+        "id": "traditional_algerian"
+      },
+      {
+        "enabled": true,
+        "name": "حلويات ومخبوزات 🍰",
+        "id": "desserts_bakery",
+        "emoji": "🍰",
+        "order": 4
+      },
+      {
+        "id": "bakery_pastries",
+        "enabled": true,
+        "order": 5,
+        "name": "معجنات ومورقات 🥐",
+        "emoji": "🥐"
+      },
+      {
+        "id": "breakfast",
+        "enabled": true,
+        "order": 6,
+        "name": "فطور الصباح ☕",
+        "emoji": "☕"
+      },
+      {
+        "enabled": true,
+        "name": "مقبلات وسلطات 🥗",
+        "order": 7,
+        "id": "appetizers_salads",
+        "emoji": "🥗"
+      },
+      {
+        "emoji": "🍢",
+        "order": 8,
+        "enabled": true,
+        "name": "مشويات وشواء 🍢",
+        "id": "grills"
+      },
+      {
+        "name": "أرز ومكرونة 🍝",
+        "id": "rice_pasta",
+        "emoji": "🍝",
+        "order": 9,
+        "enabled": true
+      },
+      {
+        "enabled": true,
+        "id": "poultry_birds",
+        "order": 10,
+        "emoji": "🍗",
+        "name": "دواجن وطيور 🍗"
+      },
+      {
+        "id": "red_meat",
+        "emoji": "🥩",
+        "enabled": true,
+        "order": 11,
+        "name": "لحوم حمراء 🥩"
+      },
+      {
+        "enabled": true,
+        "order": 12,
+        "emoji": "🐟",
+        "name": "أسماك ومأكولات بحرية 🐟",
+        "id": "seafood_fish"
+      },
+      {
+        "id": "soups",
+        "name": "شوربات وحساء 🥣",
+        "order": 13,
+        "emoji": "🥣",
+        "enabled": true
+      },
+      {
+        "emoji": "🥪",
+        "id": "fast_food_snacks",
+        "order": 14,
+        "name": "وجبات سريعة وساندويتش 🥪",
+        "enabled": true
+      },
+      {
+        "name": "دايت وحمية صحية 🥑",
+        "emoji": "🥑",
+        "order": 15,
+        "enabled": true,
+        "id": "diet_healthy"
+      },
+      {
+        "id": "drinks_juices",
+        "enabled": true,
+        "order": 16,
+        "emoji": "🍹",
+        "name": "مشروبات وعصائر 🍹"
+      },
+      {
+        "enabled": true,
+        "order": 17,
+        "emoji": "🧆",
+        "name": "أطباق جانبية 🧆",
+        "id": "side_dishes"
+      },
+      {
+        "id": "sauces_dressings",
+        "enabled": true,
+        "name": "صلصات وتتبيلات 🥣",
+        "emoji": "🥣",
+        "order": 18
+      },
+      {
+        "name": "وجبات رمضانية 🌙",
+        "enabled": true,
+        "emoji": "🌙",
+        "order": 19,
+        "id": "ramadan_meals"
+      },
+      {
+        "emoji": "🎉",
+        "order": 20,
+        "name": "مناسبات وعراضات 🎉",
+        "id": "party_occasions",
+        "enabled": true
+      },
+      {
+        "emoji": "🌟",
+        "name": "جميع الوصفات 🌟",
+        "id": "all",
+        "order": 21,
+        "enabled": true
+      },
+      {
+        "emoji": "🏺",
+        "order": 22,
+        "name": "طواجن وتراث جزائري 🏺",
+        "enabled": true,
+        "id": "traditional"
+      },
+      {
+        "name": "قدور ومقالي وطناجر 🍲",
+        "order": 23,
+        "enabled": true,
+        "emoji": "🍲",
+        "id": "pots_pans"
+      },
+      {
+        "emoji": "⚡",
+        "name": "أجهزة كهربائية ⚡",
+        "enabled": true,
+        "order": 24,
+        "id": "electric"
+      },
+      {
+        "name": "أواني المطبخ 🍳",
+        "emoji": "🍳",
+        "order": 25,
+        "id": "kitchen_supplies",
+        "enabled": true
+      },
+      {
+        "id": "choppers",
+        "order": 26,
+        "emoji": "🔪",
+        "enabled": true,
+        "name": "قطاعات ومفارم 🔪"
+      },
+      {
+        "emoji": "🍰",
+        "id": "bakery_tools",
+        "order": 27,
+        "name": "قوالب ومستلزمات 🍰",
+        "enabled": true
+      },
+      {
+        "order": 28,
+        "emoji": "🍱",
+        "name": "حافظات طعام 🍱",
+        "id": "lunchbox",
+        "enabled": true
+      },
+      {
+        "order": 29,
+        "emoji": "🧂",
+        "name": "علب تخزين وبهارات 🧂",
+        "id": "storage",
+        "enabled": true
+      },
+      {
+        "order": 30,
+        "emoji": "☕",
+        "enabled": true,
+        "name": "مستلزمات القهوة ☕",
+        "id": "coffee"
+      },
+      {
+        "name": "أدوات تنظيف وترتيب 🧼",
+        "enabled": true,
+        "emoji": "🧼",
+        "order": 31,
+        "id": "tools"
+      },
+      {
+        "order": 33,
+        "emoji": "🍲",
+        "enabled": true,
+        "id": "22",
+        "name": "333"
+      },
+      {
+        "name": "أطباق رئيسية 🍲",
+        "id": "main_dishes",
+        "emoji": "🍲",
+        "enabled": true,
+        "order": 0
       }
     ],
+    "our_apps": [],
+    "vip_keys": [],
+    "messages": [],
     "sentNotifications": [],
     "appsCatalog": [
       {
         "id": "oum_walid",
-        "name": "وصفات أم وليد (الرئيسي)",
-        "icon": "👩‍🍳",
+        "name": "وصفات أم وليد 👩‍🍳",
+        "icon": "🍲",
         "group": "الجزائر",
-        "badge": "ملكي ⭐"
+        "badge": "تطبيق رسمي ⭐"
       },
       {
         "id": "chef_azzouz",
-        "name": "الشاف عزوز الملكي",
-        "icon": "👨‍🍳",
+        "name": "الشاف عزوز 👨‍🍳",
+        "icon": "👑",
         "group": "الجزائر",
-        "badge": "ملكي 👑"
-      },
-      {
-        "id": "hichem_cook",
-        "name": "هشام كوك",
-        "icon": "🥘",
-        "group": "الجزائر",
-        "badge": "مميز 🔥"
-      },
-      {
-        "id": "chahrazed",
-        "name": "أم عبد النور",
-        "icon": "🍰",
-        "group": "الجزائر",
-        "badge": "حلويات ✨"
-      },
-      {
-        "id": "sarah_koob",
-        "name": "سارة كوك",
-        "icon": "🧁",
-        "group": "الجزائر",
-        "badge": "حلويات 🎀"
-      },
-      {
-        "id": "fares_djidi",
-        "name": "الشيف فارس جيدي",
-        "icon": "🍳",
-        "group": "الجزائر",
-        "badge": "تقليدي 🇩🇿"
-      },
-      {
-        "id": "samira_tv",
-        "name": "سميرة تي في",
-        "icon": "📺",
-        "group": "الجزائر",
-        "badge": "تلفزيون 🌟"
-      },
-      {
-        "id": "gateaux_algerien",
-        "name": "حلويات جزائرية تقليدية",
-        "icon": "🥮",
-        "group": "الجزائر",
-        "badge": "تراث 🏺"
-      },
-      {
-        "id": "moroccan_kitchen",
-        "name": "المطبخ المغربي الأصيل",
-        "icon": "🍲",
-        "group": "المغرب العربي",
-        "badge": "طاجين 🇲🇦"
-      },
-      {
-        "id": "tunisian_cuisine",
-        "name": "المطبخ التونسي الحار",
-        "icon": "🌶️",
-        "group": "المغرب العربي",
-        "badge": "تونس 🇹🇳"
-      },
-      {
-        "id": "saudi_kabsa",
-        "name": "الكبسة والمطبخ السعودي",
-        "icon": "🇸🇦",
-        "group": "المشرق والخليج",
-        "badge": "خليجي 🌴"
-      },
-      {
-        "id": "egyptian_kitchen",
-        "name": "المطبخ المصري والبلدي",
-        "icon": "🇪🇬",
-        "group": "المشرق والخليج",
-        "badge": "مصري 🧆"
-      },
-      {
-        "id": "syrian_kitchen",
-        "name": "المطبخ السوري والشامي",
-        "icon": "🇸🇾",
-        "group": "المشرق والخليج",
-        "badge": "شامي 🥗"
-      },
-      {
-        "id": "iraqi_kitchen",
-        "name": "المطبخ العراقي العريق",
-        "icon": "🇮🇶",
-        "group": "المشرق والخليج",
-        "badge": "رافدين 🍢"
-      },
-      {
-        "id": "yemeni_kitchen",
-        "name": "المندي والمطبخ اليمني",
-        "icon": "🇾🇪",
-        "group": "المشرق والخليج",
-        "badge": "مندي 🍖"
-      },
-      {
-        "id": "italian_pizza",
-        "name": "البيتزا والباستا الإيطالية",
-        "icon": "🍕",
-        "group": "عالمي وتخصصات",
-        "badge": "إيطالي 🇮🇹"
-      },
-      {
-        "id": "french_pastry",
-        "name": "الحلويات والمخبوزات الفرنسية",
-        "icon": "🥐",
-        "group": "عالمي وتخصصات",
-        "badge": "فرنسي 🇫🇷"
-      },
-      {
-        "id": "healthy_diet",
-        "name": "مطبخ الدايت والرشاقة",
-        "icon": "🥗",
-        "group": "عالمي وتخصصات",
-        "badge": "صحي 🥑"
-      },
-      {
-        "id": "fast_food",
-        "name": "ساندويتشات ووجبات سريعة",
-        "icon": "🍔",
-        "group": "عالمي وتخصصات",
-        "badge": "سريع 🍟"
-      },
-      {
-        "id": "ramadan_dishes",
-        "name": "أطباق ومائدة رمضان المبارك",
-        "icon": "🌙",
-        "group": "عالمي وتخصصات",
-        "badge": "رمضان 🕌"
+        "badge": "تطبيق رسمي 👑"
       }
     ]
   }
